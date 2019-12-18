@@ -33,5 +33,10 @@ module.exports = merge(common, {
         noInfo: false,
         inline: true,
         historyApiFallback: true
-    }
+    },
+    node: {
+        fs: 'empty',
+        net: 'empty',
+        tls: 'empty',
+      },
 });

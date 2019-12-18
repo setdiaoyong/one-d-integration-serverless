@@ -41,5 +41,12 @@ module.exports = {
     ],
     optimization: {
         runtimeChunk: 'single'
-    }
+    },
+    node: {
+        fs: 'empty',
+        net: 'empty',
+        tls: 'empty',
+      },
+
+      
 };
