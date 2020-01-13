@@ -5,7 +5,7 @@ export default class extends Controller {
     onInit() {
         Auth.registerStore(this.store);
 
-        this.store.init("layout.aside.open", window.innerWidth >= 800);
+        // this.store.init("layout.aside.open", window.innerWidth >= 800);
 
         this.addTrigger("navigation", ["url"], () => {
             if (window.innerWidth < 800)

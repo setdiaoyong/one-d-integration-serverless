@@ -1,13 +1,7 @@
 import {Route, RedirectRoute, Section, Sandbox, PureContainer} from "cx/widgets";
 import {FirstVisibleChildLayout} from "cx/ui";
-
 import AppLayout from "../layout";
-
 import Fit from "./fit";
-
-
-
-import Toasts from "./toasts";
 import Login from "./login";
 
 export default () => <cx>
@@ -25,15 +19,12 @@ export default () => <cx>
                 <Fit/>
             </Route>
            
-            
-            <Route route="~/toasts" url-bind="url">
-                <Toasts/>
-            </Route>
+    
             <Route route="~/login" url-bind="url">
                 <Login/>
             </Route>
             <Section title="Page Not Found" mod="card">
-                This page doesn't exists. Please check your URL.
+                This page doesn't exist. Please check your URL.
             </Section>
         </Sandbox>
     </PureContainer>

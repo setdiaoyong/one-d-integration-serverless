@@ -14,11 +14,11 @@ export default (
                     <p style="font-size: smaller; color: gray">Please sign to get access to the product.</p>
                     <ValidationGroup valid-bind="login.valid">
                         <form style="margin-top: -15px" onSubmit="login">
-                            <TextField value-bind="login.username" label="Username" required autoFocus/>
+                            {/* <TextField value-bind="login.username" label="Username" required autoFocus/>
                             <br/>
                             <TextField value-bind="login.password" label="Password" inputType="password" required/>
-                            <br/>
-                            <Button mod="primary" enabled-bind="login.valid" style="margin-top: 30px" submit>
+                            <br/> */}
+                            <Button mod="primary" enabled-bind="login.valid" style="margin-top: 30px" submit onClick={() => login('aad')}>
                                 Sign In
                             </Button>
                         </form>

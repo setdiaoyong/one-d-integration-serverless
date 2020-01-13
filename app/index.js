@@ -1,6 +1,7 @@
 import {Store} from "cx/data";
 import {Url, History, startHotAppLoop} from "cx/ui";
 import {Timing, Debug} from "cx/util";
+import Icon from "./icon"
 
 //css
 import "cx-theme-material/dist/reset.css";

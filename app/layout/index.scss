@@ -1,5 +1,5 @@
-$header-color: #2196F3;
-$aside-width: 260px;
+$header-color: #203354;
+$aside-width: 180px;
 $small-device-width: 800px;
 
 #app,
@@ -8,7 +8,7 @@ $small-device-width: 800px;
 }
 
 .header {
-    padding: 1.5em;
+    padding: 1.1em;
     background: $header-color;
     position: fixed;
     transition: all 0.2s linear;
@@ -43,7 +43,7 @@ $small-device-width: 800px;
     width: $aside-width;
     background: white;
     box-shadow: 0 0 1px rgba(0, 0, 0, 0.26);
-    font-size: 13px;
+    font-size: 16px;
 
     transform: translateX(-300px);
     transition: transform 0.2s linear;

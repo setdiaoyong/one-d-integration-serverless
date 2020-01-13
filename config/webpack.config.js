@@ -6,6 +6,7 @@ const
     p = p => path.join(__dirname, "../", p || "");
 
 module.exports = {
+    
     resolve: {
         alias: {
             app: p("app")
@@ -13,6 +14,8 @@ module.exports = {
             //'cx-react': 'cx-preact',
         }
     },
+
+    // target: 'node',
 
     module: {
         rules: [
@@ -29,10 +32,12 @@ module.exports = {
             }
         ]
     },
+
     entry: {
         vendor: ["cx-react"],
         app: [p("app/index.js")]
     },
+    
     plugins: [
         new HtmlWebpackPlugin({
             template: p("app/index.html")
@@ -42,6 +47,8 @@ module.exports = {
     optimization: {
         runtimeChunk: 'single'
     },
+
+
     node: {
         fs: 'empty',
         net: 'empty',

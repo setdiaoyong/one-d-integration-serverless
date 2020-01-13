@@ -1,3 +1,4 @@
+
 let store = null;
 
 export class Auth {

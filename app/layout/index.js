@@ -27,24 +27,14 @@ export default (
                 <ContentPlaceholder name="header"/>
             </header>
             <aside class="aside">
-                <h1>Material + Sidebar</h1>
+                <h1>Project One-D</h1>                
                 <dl>
-                    <dt>Layout</dt>
                     <dd>
                         <Link href="~/fit" url-bind="url">
-                            Fit
+                            Tabs
                         </Link>
                     </dd>
-                   
-                    
-                </dl>
-                
-                <dl>
-                    <dt>Utility</dt>
                     <dd>
-                        <Link href="~/toasts" url-bind="url" match="prefix">
-                            Toasts
-                        </Link>
                         <Link href="~/login" url-bind="url" match="prefix">
                             Login
                         </Link>
