@@ -54,21 +54,5 @@
     "webpack-cli": "^3.3.5",
     "webpack-dev-server": "^3.7.2",
     "webpack-merge": "^4.2.1"
-=======
-  "name": "slstest",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "sls offline --port 3001",
-    "test": "necho \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "aws-sdk": "^2.599.0",
-    "onedrive-api": "^0.3.3",
-    "serverless-offline": "^5.12.1"
->>>>>>> serverless architecture added
   }
 }
