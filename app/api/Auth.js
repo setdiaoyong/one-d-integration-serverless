@@ -1,3 +1,4 @@
+module.exports = (Auth) => {
 
 let store = null;
 
@@ -46,3 +47,4 @@ export class Auth {
         store.set('user', user);
     }
 }
+    }
